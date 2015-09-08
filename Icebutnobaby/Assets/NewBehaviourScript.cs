@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class Letsdoit : MonoBehaviour {
 
 	int myint = 4;
 
@@ -14,7 +14,7 @@ public class NewBehaviourScript : MonoBehaviour {
 	int subtractthree (int number)
 	{
 		int ret;
-			ret = number - 3;
+		ret = number - 3;
 		return ret;
 	}
 }
