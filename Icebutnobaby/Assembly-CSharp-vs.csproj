@@ -48,10 +48,14 @@
   <ItemGroup>
      <Compile Include="Assets\Blehblehbleh.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\NewBehaviourScript1.cs" />
      <Compile Include="Assets\Variablesandfunctions.cs" />
      <Compile Include="Assets\again.cs" />
      <Compile Include="Assets\eggyjustice.cs" />
+     <Compile Include="Assets\hawt.cs" />
+     <Compile Include="Assets\murble.cs" />
      <Compile Include="Assets\passoff.cs" />
+     <Compile Include="Assets\practicemakespineapple.cs" />
      <Compile Include="Assets\yetagain.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
