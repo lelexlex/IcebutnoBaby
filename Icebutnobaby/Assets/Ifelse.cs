@@ -17,7 +17,7 @@ public class Ifelse : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space))
 			Test ();
 
-		mine -= Time.deltaTime * 3;
+
 		}
 
 
