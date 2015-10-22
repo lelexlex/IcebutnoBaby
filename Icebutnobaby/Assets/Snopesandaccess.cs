@@ -9,13 +9,13 @@ public class Snopesandaccess : MonoBehaviour {
 
 	private Anotherclass rapgod;
 	// Use this for initialization
+
 	void Start () {
 		a1 = 42;
 	}
 
-	void example (int eminem, int god){
-		int answer;
-		answer = eminem * god * a1;
-		Debug.Log (answer);
+
+	void FixedUpdate () {
+		Debug.Log("a1 is set to " + a1);
 	}
-}
+}	
