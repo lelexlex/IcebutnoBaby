@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class Ifelse : MonoBehaviour {
-	
-	float mine=80;
+
+	public float mine=80f;
 	
 	//add float and getkeydown
 	void Start () 
