@@ -7,7 +7,7 @@ public class Movement01 : MonoBehaviour {
 	public int upspeed = 1;
 
 
-	void Start () {
+	void Awake () {
 		transform.position = new Vector3 (-12, 0, 0);
 			
 		}
@@ -20,3 +20,6 @@ public class Movement01 : MonoBehaviour {
 	}
 
 }
+
+
+/* Check vector 2 movement. Could save time http://pixelnest.io/tutorials/2d-game-unity/player-and-enemies/ */
