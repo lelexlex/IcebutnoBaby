@@ -3,15 +3,11 @@ using System.Collections;
 
 public class Movement01 : MonoBehaviour {
 
-	public int speed = 6;
+	public int speed = 4;
 	public int upspeed = 1;
 
 
-	void Awake () {
-		transform.position = new Vector3 (-12, 0, 0);
-			
-		}
-
+	
 	void Update () {
 		float translation2 = Time.deltaTime * upspeed;
 	 	float translation = Time.deltaTime * speed;
