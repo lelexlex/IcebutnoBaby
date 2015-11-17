@@ -5,27 +5,32 @@ public class spawn : MonoBehaviour {
 
 	public float spawntime = 2;
 	public GameObject [] dog;
-	public int amount;
+	/*public int amount = 0;*/
+
 
 	public Vector3 spawnpoint;
 
 
 
-	void Update()
+	/*void Update()
 	{
 		dog = GameObject.FindGameObjectsWithTag ("Enemy");
+		
 
-		amount = dog.Length;
-
-		if (amount != 3) 
+		if (amount < 1)
 		{
 		
 			InvokeRepeating ("Spawn", spawntime, spawntime);
-
+			amount = "amount + 1";
 
 		}
 
-	}
+		else (amount > 1);
+		{
+			CancelInvoke("Spawn");
+		}
+		
+	}*/
 
 
 
@@ -46,3 +51,4 @@ public class spawn : MonoBehaviour {
 	}
 	
 }
+/*Spawn this instance, add rigidbody. ignore top*/
